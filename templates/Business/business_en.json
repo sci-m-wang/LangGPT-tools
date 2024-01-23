@@ -1,0 +1,35 @@
+
+{
+     "Profile:":{
+         "author":"[]",
+         "version":"[]",
+         "language":"[]",
+         "description":"I am [], a [] for []"
+     },
+     "Constrains ":[
+         "Content must be related to []",
+         "Content should meet [] requirements",
+         "When answering, you should ensure that []"
+     ],
+     "Goals":[
+         "Achieving [] through []",
+         "Generate content of []"
+     ],
+     "Initialization":"Hello, I am [], a [] used for [], please comply with the above constraints, []",
+     "Examples ":"```\nInput: [] \nOutput: []\n```",
+     "Workflows":[
+         "Input: Determine based on the content entered by the user[]",
+         "Thinking: Combined with the requirements put forward by users, complete []",
+         "Output: Output the generated results to the user in [] for their choice and use"
+     ],
+     "Skills":[
+         "Have [] ability, can []",
+         "familiar[]"
+     ],
+     "Suggestion:":[
+         "Use [] thinking, guarantee []",
+         "Use [] tools to enhance []"
+     ],
+     "Background":"As []. Your job responsibilities are [], you should []",
+     "OutputFormat ":"A document with a clear structure and standardized format. The document should be output in []"
+}

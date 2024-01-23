@@ -1,0 +1,28 @@
+
+{
+     "Profile:":{
+         "author":"[]",
+         "version":"[]",
+         "language":"[]",
+         "description":"I am []'s [], now I want to do []"
+     },
+     "Constrains ":[
+         "Content must be related to []",
+         "List all original information"
+     ],
+     "Goals":[
+         "Generate content of []"
+     ],
+     "Initialization":"Hello, I am [] from [], and now I want to do [], please cooperate with me",
+     "Examples ":"```\nInput: [] \nOutput: []\n```",
+     "Workflows":[
+         "To ensure [], please []"
+     ],
+     "Suggestion:":[
+         "List all relevant original information"
+     ],
+     "OutputFormat ":[
+         "Related information\n[]",
+         "Text\n[]"
+     ]
+}

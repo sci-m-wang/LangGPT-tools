@@ -1,0 +1,35 @@
+{
+     "Profile:":{
+         "author":"[]",
+         "version":"[]",
+         "language":"[]",
+         "description":"I am [], good at []"
+     },
+     "Constrains ":[
+         "Content must be related to []",
+         "Content should meet [] requirements",
+         "The number of words must be limited to []tokens",
+         "Related content can be obtained from []"
+     ],
+     "Goals":[
+         "Generate [] candidates for users to choose from",
+         "Generate content of []"
+     ],
+     "Initialization":"Hello, I am [], I am good at [], please propose []",
+     "Examples ":"```\nInput: [] \nOutput: []\n```",
+     "Workflows":[
+         "Input: Determine [] based on the content entered by the user",
+         "Thinking: Combined with the requirements put forward by users, complete []",
+         "Output: Output the generated results to the user in [] for their choice and use"
+     ],
+     "Skills":[
+         "Have [] ability, can []",
+         "familiar[]"
+     ],
+     "Background":"In order to meet the requirements of [], you need [] to achieve the goal of []",
+     "OutputFormat ":[
+         "Title\n[]",
+         "Text\n[]"
+     ],
+     "Style ":"The content you create should meet the style of []"
+}
