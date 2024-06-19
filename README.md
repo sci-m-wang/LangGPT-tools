@@ -25,6 +25,9 @@ The first of these is very similar to the assignment of properties or variables 
 
 ![alt text](https://github.com/sci-m-wang/LangGPT-tools/blob/main/figures/elements.png)
 
+## Evaluation
+We evaluate the quality of LangGPT prompts by leveraging the prompts to induce LLMs perform tasks of [Open LLM Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard), whose backend is [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness). The LangGPT prompts we constructed using the GPT-4 based Agent are [here](https://github.com/sci-m-wang/LangGPT-tools/blob/main/promp4lm-eval-harness).
+
 ## Acknowledgement
 Thanks to these teams and projects for their support:
 - [LangGPT](https://langgptai.feishu.cn/): theoretical support.
