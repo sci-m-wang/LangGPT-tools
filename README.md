@@ -7,7 +7,7 @@ LangGPT is a prompt design framework as the programming language for LLMs. LangG
 
 To systematically design prompts that meet the principles, we have made full reference to the design ideas and structures of object-oriented programming languages. We consider the prompt as a software project and analogize the prompt design process with the software development process. The correspondence is shown following:
 
-![correspondence](figures/correspondence.jpg)
+![correspondence](https://github.com/sci-m-wang/LangGPT-tools/blob/main/figures/correspondence.jpg)
 
 Based on analogical analyses, it can be found that natural language prompts have a similar multi-level structure as programming languages. Therefore, we refer to the structure of programming languages propose a dual-layer structure for prompt design, and define the notion of module and element for prompts.
 
@@ -16,14 +16,14 @@ A complete prompt contains several modules. Modules are similar to classes in pr
 
 A dual-layer structure can be a good way to standardize the formatting of prompts. However, the flexibility of natural languages would be lost if prompts are too strictly required to follow predefined standard modules and internal elements. In addition, it will reduce the generalisability of LangGPT to different tasks in different domains, which is not conducive to the reuse of quality prompts. To solve these problems, we divided the types of modules and elements into prompts. We defined **inherent module** and **basic element** as the predefined dual-layer prompt template. In addition, we constructed extension module and custom element that support customization. We provide both Markdown and JSON formats for inherent modules and extension modules. Furthermore, we have written basic elements for different modules and defined principles for writing custom elements.
 
-![alt text](figures/image.png)
+![alt text](https://github.com/sci-m-wang/LangGPT-tools/blob/main/figures/image.png)
 
 ## Elements
 Three purposes are typically included in prompts: (1) Implying a certain message to LLMs; (2) Letting LLMs execute a certain task with or without output; (3) The combination of the first two.
 
 The first of these is very similar to the assignment of properties or variables in programming languages. Correspondingly, the last two categories are similar to functions in programming languages. Thus, we construct these three types of basic elements. We use `The <property> is <value>` to simulate an assignment. For the latter two cases, it is necessary to specify the input information, the task, and the output, where input and output can be omitted. We simulate functions using a form like this: `For the given <property> of <value>, please execute the following actions: <actions>; Return the <result>`. To improve the generalisability and flexibility of prompts, the language can be adapted to express key information. In the following Table, we show some examples of the basic elements in some modules.
 
-![alt text](figures/elements.png)
+![alt text](https://github.com/sci-m-wang/LangGPT-tools/blob/main/figures/elements.png)
 
 ## Acknowledgement
 Thanks to these teams and projects for their support:
